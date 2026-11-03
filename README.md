@@ -4,7 +4,10 @@ Five-grade classifier (No DR, Mild, Moderate, Severe, Proliferative) fine-tuned 
 
 > **Research prototype. Not a medical device. Not for clinical use.** Trained on a public dataset only; no patient data is included in this repository.
 
-**Live demo:** _Hugging Face Space link to add_
+**Demo:** a Gradio app is in `demo/` (see Run it below). There is no hosted version yet.
+
+![clinical_dashboard](results/clinical_dashboard.png)
+![confusion_matrix](results/confusion_matrix.png)
 
 ## Results (validation split of APTOS 2019, 733 images)
 
