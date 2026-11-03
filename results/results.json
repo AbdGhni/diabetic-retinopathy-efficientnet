@@ -1,0 +1,29 @@
+{
+  "model": "EfficientNet-B3",
+  "dataset": "APTOS 2019",
+  "n_train": 2929,
+  "n_val": 733,
+  "best_qwk": 0.8577371677699426,
+  "accuracy": 0.7585266030013642,
+  "auc_macro": 0.9061352613102407,
+  "sensitivity_referable": 0.8456375838926175,
+  "specificity_referable": 0.9632183908045977,
+  "ppv": 0.9402985074626866,
+  "npv": 0.9010752688172043,
+  "auc_per_class": {
+    "No DR": 0.9848464539957705,
+    "Mild": 0.9272443915843005,
+    "Moderate": 0.909892120075047,
+    "Severe": 0.8299527081947832,
+    "Proliferative": 0.8787406327013026
+  },
+  "config": {
+    "img_size": 300,
+    "batch_size": 16,
+    "warmup_epochs": 5,
+    "finetune_epochs": 25,
+    "learning_rate": 0.0001,
+    "dropout": 0.4,
+    "mixup_alpha": 0.4
+  }
+}
